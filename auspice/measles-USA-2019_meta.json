@@ -1,0 +1,200 @@
+{
+  "annotations": {
+    "MeVgp1": {
+      "end": 1685,
+      "start": 107,
+      "strand": 1
+    },
+    "MeVgp2": {
+      "end": 2389,
+      "start": 1828,
+      "strand": 1
+    },
+    "MeVgp3": {
+      "end": 4445,
+      "start": 3437,
+      "strand": 1
+    },
+    "MeVgp4": {
+      "end": 7110,
+      "start": 5457,
+      "strand": 1
+    },
+    "MeVgp5": {
+      "end": 9124,
+      "start": 7270,
+      "strand": 1
+    },
+    "MeVgp6": {
+      "end": 15785,
+      "start": 9233,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 15894,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "country": {
+      "color_map": [],
+      "key": "country",
+      "legendTitle": "Country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "state": {
+      "color_map": [
+        [
+          "Texas",
+          "#cc4358"
+        ],
+        [
+          "Pennsylvania",
+          "#E30000"
+        ],
+        [
+          "Oregon",
+          "#82edcb"
+        ],
+        [
+          "New York",
+          "#ff6a00"
+        ],
+        [
+          "New Jersey",
+          "#ffe042"
+        ],
+        [
+          "Massachusetts",
+          "#43a33b"
+        ],
+        [
+          "Maryland",
+          "#4cd606"
+        ],
+        [
+          "Illinois",
+          "#dfe300"
+        ],
+        [
+          "Hawaii",
+          "#32a899"
+        ],
+        [
+          "Georgia",
+          "#2c9bc7"
+        ],
+        [
+          "Florida",
+          "#193abf"
+        ],
+        [
+          "Connecticut",
+          "#6928c9"
+        ],
+        [
+          "Colorado",
+          "#37875e"
+        ],
+        [
+          "California",
+          "#9c0c7f"
+        ]
+      ],
+      "key": "state",
+      "legendTitle": "State",
+      "menuItem": "state",
+      "type": "discrete"
+    }
+  },
+  "defaults": {
+    "colorBy": "state",
+    "geoResolution": "state",
+    "mapTriplicate": false
+  },
+  "filters": [
+    "country",
+    "state"
+  ],
+  "geo": {
+    "state": {
+      "California": {
+        "latitude": 36.7783,
+        "longitude": -119.4179
+      },
+      "Colorado": {
+        "latitude": 39.5501,
+        "longitude": -105.7821
+      },
+      "Connecticut": {
+        "latitude": 41.6032,
+        "longitude": -73.0877
+      },
+      "Florida": {
+        "latitude": 27.6648,
+        "longitude": -81.5158
+      },
+      "Georgia": {
+        "latitude": 32.1656,
+        "longitude": -82.9001
+      },
+      "Hawaii": {
+        "latitude": 19.8968,
+        "longitude": -155.5828
+      },
+      "Illinois": {
+        "latitude": 40.6331,
+        "longitude": -89.3985
+      },
+      "Maryland": {
+        "latitude": 39.0458,
+        "longitude": -76.6413
+      },
+      "Massachusetts": {
+        "latitude": 42.4072,
+        "longitude": -71.3824
+      },
+      "New Jersey": {
+        "latitude": 40.0583,
+        "longitude": -74.4057
+      },
+      "New York": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "Oregon": {
+        "latitude": 43.8041,
+        "longitude": -120.5542
+      },
+      "Pennsylvania": {
+        "latitude": 40.8766,
+        "longitude": -77.8367
+      },
+      "Texas": {
+        "latitude": 31.7955,
+        "longitude": -94.1791
+      }
+    }
+  },
+  "maintainer": [
+    "Alissa Haas",
+    "github.com"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Measles_USA_2019",
+  "updated": "03 Mar 2020",
+  "virus_count": 48
+}
